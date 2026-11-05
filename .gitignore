@@ -1,33 +1,11 @@
-# User-requested exclusions, including uppercase extensions.
 *.[pP][nN][gG]
 *.[mM][dD]
-
-# Personal inputs, generated images, signed links and diagnostics.
-/sketches/
+/output/
 /outputs/
+/sketches/
 .env
 .env.*
-*.pem
 *.key
-
-# Python and editor caches.
 __pycache__/
-*.py[cod]
-.venv/
-venv/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.vscode/
-.idea/
-
-# Rebuildable packaging files; retain the distributable EXE.
-/packaging/build/
-/packaging/*.spec
-/packaging/*.log
-/packaging/self-check*.json
-/build/
-/dist/
-*.tmp
 Thumbs.db
 Desktop.ini
